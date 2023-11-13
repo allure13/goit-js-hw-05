@@ -11,6 +11,9 @@
 
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
+getUsersWithFriend = (users, friendName) =>
+  users.filter((user) => user.friends.includes(friendName));
+
 const allUsers = [
   {
     name: "Moore Hensley",
